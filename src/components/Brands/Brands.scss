@@ -1,0 +1,45 @@
+.brands {
+  padding: 40px 24px 60px;
+  background: #ffffff;
+
+  &__container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  h2 {
+    margin: 0 0 30px;
+    text-align: center;
+    color: #3442b5;
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  &__item {
+    width: 160px;
+    height: 160px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.12);
+
+    color: #3442b5;
+    font-size: 20px;
+    font-weight: 700;
+
+  img {
+  width: 100px;
+  height: auto;
+  display: block;
+}
+  }
+}
